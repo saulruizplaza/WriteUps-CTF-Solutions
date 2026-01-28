@@ -49,11 +49,14 @@ En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.12.0.2
 | --min-rate 5000 | Envía al  5000 paquetes por segundo (aumenta velocidad; puede causar pérdida o detección) |
 | 172.17.0.2 | Dirección IP del objetivo a escanear |
 
+
+![Escaneo de Red](img/escaneo.png)
+
 > [!NOTE]
 >
 >Se ha realizado un escaneo agresivo debido a que se está realizando en un entorno controlado y no es importante el ser detectado. Si se busca hacer el mínimo ruido posible será necesario utilizar el argumento **-sS** se usa para no ser detectado fácilmente, porque no completa la conexión TCP. Además, **no se usará --min-rate.**
 
-![Escaneo de Red](img/escaneo.png)
+
 
 Cómo vemos, se encuentra tres servicios activos:
 - **FTP con acceso anónimo (Puerto 21):** Se encuentra 2 ficheros.txt
