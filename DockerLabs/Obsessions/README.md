@@ -37,7 +37,7 @@ Para desplegar el servicio será necesario carle permisos de ejecución a auto_d
 ![Despliegue](img/despliegue.png)
 
 
-## Fase de Descubrimiento 
+## 🔎 Fase de Descubrimiento 
 Ahora, se abrirá una nueva terminal para empezar a realizar el descubrimiento del sistema. Cómo sabemos la dirección IP de la máquina vulnerable **(172.17.0.2)**, comenzaremos realizando un escaneo de red nmap. 
 En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.12.0.2**
 
@@ -49,7 +49,7 @@ En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.12.0.2
 | --min-rate 5000 | Envía al  5000 paquetes por segundo (aumenta velocidad; puede causar pérdida o detección) |
 | 172.17.0.2 | Dirección IP del objetivo a escanear |
 
-> [!CAUTION]
+> [!NOTE]
 >
 >Se ha realizado un escaneo agresivo debido a que se está realizando en un entorno controlado y no es importante el ser detectado. Si se busca hacer el mínimo ruido posible será necesario utilizar el argumento **-sS** se usa para no ser detectado fácilmente, porque no completa la conexión TCP. Además, **no se usará --min-rate.**
 
@@ -61,10 +61,11 @@ Cómo vemos, se encuentra tres servicios activos:
 - **HTTP (Puerto 80):** Servidor Web.
 
 
-## Análisis FTP
+## 📂 Análisis FTP
 Primero se intenta acceder al servidor FTP de forma anónima, ya que normalmente viene configurado por defecto con las credenciales **anonymous / anonymous**. Si esto no funciona, se puede probar fuerza bruta con Hydra o utilizar scripts de Nmap para enumerar el servicio.
 
 Para acceder al servidor FTP se usa el comando **ftp**. Posteriormente se utiliza el comando **open 172.17.0.2** para abrir la conexión con el servidor. Por último, se introduce las credenciales.
+
 ![Acceso ftp](img/ftp.png)
 
 Con el comando **dir** se podrá listar los archivos disponibles.
@@ -117,7 +118,7 @@ A continuación, se muestra la información extraída mediante los directorios y
   ![important.md](img/important_md.png)
 
 
-## Análisis SSH
+## 🛜 Análisis SSH
 Cómo ya conocemos el usuario, podemos realizar un ataque de fuerza bruta para encontrar la contraseña. Se puede realizar de dos maneras:
 - **Nmap:** nmap -p 22 --script ssh-brute --script-args userdb=users.txt --min-rate 5000 172.17.0.2
 
@@ -129,7 +130,7 @@ Cómo ya conocemos el usuario, podemos realizar un ataque de fuerza bruta para e
     | --script-args userdb=users.txt | Proporciona el archivo con lista de usuarios para el ataque. |
     | --min-rate 5000 | Envía al menos 5000 paquetes por segundo (aumenta velocidad). |
 
-    > [!IMPORTANT]
+    >[!CAUTION]
     >
     >Se debe crear con un editor de texto cómo **nano**  llamado **users.txt** con el usuario russoski dentro.
 
@@ -149,7 +150,7 @@ Cómo ya conocemos el usuario, podemos realizar un ataque de fuerza bruta para e
 
     ![Hydra](img/hydra.png)
 
-## Acceso al servidor
+## 🖥️ Acceso al servidor
 Cómo ya se ha obtenido el usuario (russoski) y su contraseña (iloveme), se procede a la conexión por ssh mediante el comando **ssh russoski:172.17.0.2**.
 
 ![Acceso SSH](img/acceso_ssh.png)
@@ -158,7 +159,7 @@ Se lista todos los recursos que tenemos disponible:
 
 ![Listar](img/listar.png)
 
-## Escalada de permisos
+## 🔓 Escalada de permisos
 Se usará el comando **sudo -l** para mostrar los binarios que el usuario russoski puede ejecutar cómo **root**.
 
 ![binarios sudo](img/binarios_sudo.png)
@@ -173,8 +174,9 @@ Posteriormente se introduce el comando, se confirma que se accede al usuario roo
 
 
 
-## Post-Laboratorio
+## 🧪 Post-Laboratorio
 Una vez finalizada la máquina, en la terminal donde se tiene desplegada la máquina vulnerable se utilizará la combinación de teclas **Control + C** para eliminarla.
+
 ![Cerrar laboratorio](img/cerrar.png)
 
 
