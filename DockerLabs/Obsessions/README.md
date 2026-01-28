@@ -16,9 +16,9 @@ Esta máquina está pensada para quienes quieren dar sus primeros pasos en pente
 >Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/JHUEFZ4J#SyfKRfM6_xKBXLxP8JZKW-sVQnB0Nv2B1Dwbw6pRn9w)**
 
 
-## Despliegue Obsession
+## 🔝 Despliegue Obsession
 
-Al descargar la máquina, es necesario descompromirlo para poder encontrar los archivos necesarios para poder desplegarla, para ello, utilizaremos el comando
+Al descargar la máquina, es necesario descompromirlo para poder encontrar los archivos necesarios para poder desplegarla, para ello, utilizaremos el comando.
 
 **unzip obsession.zip.**
 
@@ -51,7 +51,7 @@ En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.12.0.2
 
 > [!CAUTION]
 >
->Se ha realizado un escaneo agresivo debido a que se está realizando en un entorno controlado y no es importante el ser detectado. Si se busca hacer el mínimo ruido posible será necesario utilizar el argumento **-sS ** se usa para no ser detectado fácilmente, porque no completa la conexión TCP. Además, no se usará --min-rate.
+>Se ha realizado un escaneo agresivo debido a que se está realizando en un entorno controlado y no es importante el ser detectado. Si se busca hacer el mínimo ruido posible será necesario utilizar el argumento **-sS** se usa para no ser detectado fácilmente, porque no completa la conexión TCP. Además, **no se usará --min-rate.**
 
 ![Escaneo de Red](img/escaneo.png)
 
@@ -90,7 +90,7 @@ A continuación, se empezará a analizar el servidor web.
 ![Web](img/web.png)
 
 Se encuentra un formulario web, donde redirige a esta página.
-![Output_form](img/output_form.png).
+![Output_form](img/output_form.png)
 
 Nos interesa la raíz de la web, donde se verá el código fuente del servidor usando **Control + U**.
 
@@ -155,6 +155,7 @@ Cómo ya se ha obtenido el usuario (russoski) y su contraseña (iloveme), se pro
 ![Acceso SSH](img/acceso_ssh.png)
 
 Se lista todos los recursos que tenemos disponible:
+
 ![Listar](img/listar.png)
 
 ## Escalada de permisos
@@ -173,7 +174,7 @@ Posteriormente se introduce el comando, se confirma que se accede al usuario roo
 
 
 ## Post-Laboratorio
-Una vez finalizada la máquina, en la terminal donde se tiene desplegada la máquina vulnerable se utilizará la combinación de teclas **Control + C **para eliminarla.
+Una vez finalizada la máquina, en la terminal donde se tiene desplegada la máquina vulnerable se utilizará la combinación de teclas **Control + C** para eliminarla.
 ![Cerrar laboratorio](img/cerrar.png)
 
 
@@ -193,4 +194,3 @@ Si quieres aprender informática, mejorar tus habilidades, descubrir trucos y so
 [![TikTok](https://img.shields.io/badge/TikTok-@plasysx_es-69C9D0?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=101010)](https://tiktok.com/@plasysx_es)
 [![YouTube](https://img.shields.io/badge/YouTube-Plasysx-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtube.com/@Plasysx)
 [![Twitter](https://img.shields.io/badge/Twitter-@plasysx-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=101010)](https://twitter.com/plasysx)
-
