@@ -29,7 +29,9 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 ### Muy Fácil
 
-- [`Obsessions`](./DockerLabs/Obsessions/README.md) → WriteUp detallado
+- [`Obsessions`](./DockerLabs/Obsessions/README.md) → Enumeración de servicios, análisis web y explotación de FTP, SSH y HTTP, con escalada de privilegios mediante abuso de sudo y binarios vulnerables.
+
+- [`Vacaciones`](./DockerLabs/Vacaciones/README.md)  → Enumeración de servicios, fuerza bruta por SSH, análisis de servidor HTTP y escalada de privilegios en Linux.
 
 
 <br>

@@ -148,7 +148,7 @@ Cómo ya conocemos el usuario, podemos realizar un ataque de fuerza bruta para e
     | hydra | Herramienta de ataque de fuerza bruta. |
     | -l russoski | Especifica un usuario. |
     | -P /usr/share/wordlists/rockyou.txt.gz| Archivo con diccionario de contraseñas a probar. |
-    | ssh://192.168.1.100 | Protocolo y dirección IP del objetivo. |
+    | ssh://172.17.0.2| Protocolo y dirección IP del objetivo. |
     | -t 64 | Número de hilos utilizados (velocidad). |
 
     ![Hydra](img/hydra.png)
