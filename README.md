@@ -33,6 +33,7 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 - [`Vacaciones`](./DockerLabs/Vacaciones/README.md)  → Enumeración de servicios, fuerza bruta por SSH, análisis de servidor HTTP y escalada de privilegios en Linux.
 
+- [`Vacaciones`](./DockerLabs/tproot/README.md)  → Enumeración de servicios y detección de VSFTPD 2.3.4 con backdoor explotable
 
 <br>
 
