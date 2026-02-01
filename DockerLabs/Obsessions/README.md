@@ -16,6 +16,14 @@ Esta máquina está pensada para quienes quieren dar sus primeros pasos en pente
 >Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/JHUEFZ4J#SyfKRfM6_xKBXLxP8JZKW-sVQnB0Nv2B1Dwbw6pRn9w)**
 
 
+## 📹 ¡Mira el procedimiento en mi canal de YouTube!
+
+|  |
+|---|
+| [![Obsession - Tutorial Práctico](https://img.youtube.com/vi/a5V7oiIcbYw/maxresdefault.jpg)](https://www.youtube.com/watch?v=a5V7oiIcbYw) |
+
+
+
 ## 🔝 Despliegue Obsession
 
 Al descargar la máquina, es necesario descompromirlo para poder encontrar los archivos necesarios para poder desplegarla, para ello, utilizaremos el comando.
