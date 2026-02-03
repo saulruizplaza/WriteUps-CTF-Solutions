@@ -1,7 +1,7 @@
 <center><h1>HedgeHog</h1></center>  
 <p align="center">
 
-![Banner](img/banner.png)
+<img src="img/banner.png" width="400">
 
 
 ## ❓ ¿Qué es HedgeHog?
