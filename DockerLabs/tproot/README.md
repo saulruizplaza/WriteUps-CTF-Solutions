@@ -15,6 +15,13 @@ La máquina destaca por el uso de VSFTPD 2.3.4, que contiene una puerta trasera 
 >Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/ORUEzLia#WQgvveTv3kAnXBs6UyRShd1JomGNg6Sk7DSa_fJwD7k)**
 
 
+## 📹 ¡Mira el procedimiento en mi canal de YouTube!
+
+|  |
+|---|
+| [![Obsession - Tutorial Práctico](https://img.youtube.com/vi/fs5zlg40_Q0/maxresdefault.jpg)](https://www.youtube.com/watch?v=fs5zlg40_Q0) |
+
+
 ## 🔝 Despliegue tproot
 
 Al descargar la máquina, es necesario descompromirlo para poder encontrar los archivos necesarios para poder desplegarla, para ello, utilizaremos el comando.
