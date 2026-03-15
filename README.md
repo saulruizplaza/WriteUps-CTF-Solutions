@@ -37,7 +37,9 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 - [`BreakMySSH`](./DockerLabs/breakmyssh/README.md)  → Máquina orientada a aprender enumeración básica, fuerza bruta y cracking de hashes para obtener acceso inicial mediante pistas web, credenciales descubiertas y acceso por SSH.
 
-- [`borazuwarahctf`](./DockerLabs/borazuwarahctf/README.md)  → Máquina orientada a Análisis de metadatos y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH.
+- [`Borazuwarahctf`](./DockerLabs/borazuwarahctf/README.md)  → Máquina orientada a Análisis de metadatos y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH.
+
+- [`Trust`](./DockerLabs/trust/README.md)  → Enumeración web y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH, con escalada de privilegios a través de binarios sudo inseguros.
 
 
 <br>
