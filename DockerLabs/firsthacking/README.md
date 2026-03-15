@@ -1,52 +1,55 @@
-<center><h1>BreakMySSH</h1></center>  
+<center><h1>FirstHacking</h1></center>  
 <p align="center">
 
 <img src="img/banner.png" width="400">
 
 
-## ❓ ¿Qué es BreakMySSH?
+## ❓ ¿Qué es FirstHacking?
 
-BreakMySSH es una máquina vulnerable centrada en la enumeración básica de servicios y el uso de técnicas de fuerza bruta para obtener acceso inicial. A través del análisis de los puertos expuestos principalmente SSH y HTTP el atacante puede identificar pistas mínimas en el servicio web y, posteriormente, apoyarse en un diccionario invertido para descubrir credenciales válidas.
+FirstHacking es una máquina vulnerable orientada a practicar reconocimiento básico de servicios y explotación inicial de un servicio FTP vulnerable, permitiendo obtener acceso directo al sistema mediante Metasploit y privilegios root en un entorno controlado.
 
 > [!NOTE]
 >
->Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/hfE3lbwZ#ExAcF54AyOHeJqgH2R4cDIAGc5IVlJnI5Rs-Us2QMpM)**
+>Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/oCd2VC5D#QfiRoFmZrZ-FjTuyRX9bLw7638fjluwp6jNth7JjXTw)**
 
 
-## 🔝 Despliegue BreakMySSH
+## 🔝 Despliegue FirstHacking
 
 Al descargar la máquina, es necesario descompromirlo para poder encontrar los archivos necesarios para poder desplegarla, para ello, utilizaremos el comando.
 
-**unzip breakmyssh.zip.**
+**unzip firsthacking.zip.**
 
-![unzip BreakMySSH.zip](img/unzip.png)
+![unzip Trust](img/unzip.png)
 
 Obtendremos dos ficheros:
 - **Auto_deploy.sh:** Script Bash para desplegar nuestra máquina localmente.
-- **breakmyssh.tar:** Máquina vulnerable contenizada.
+- **firsthacking.tar:** Máquina vulnerable contenizada.
 
 Para desplegar el servicio será necesario carle permisos de ejecución a auto_deploy.sh, ya que por defecto tiene permisos 644. Para ello, usaremos el comando:
 
  **chmod +x auto_deploy.sh**
 
- Una vez ejecutado, se utilizará el comando **./auto_deploy.sh breakmyssh.tar** para lanzar la máquina
+ Una vez ejecutado, se utilizará el comando **./auto_deploy.sh firsthacking.tar** para lanzar la máquina
 
 ![Despliegue](img/despliegue.png)
+
 
 ## 🔎 Fase de Descubrimiento 
 Ahora, se abrirá una nueva terminal para empezar a realizar el descubrimiento del sistema. Cómo sabemos la dirección IP de la máquina vulnerable **(172.17.0.2)**, comenzaremos realizando un escaneo de red nmap. 
 En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.17.0.2**
 
+En este caso, he añadido -oN escaneo.txt para tener el escaneo guardado en un fichero sin necesidad repetirlo en un futuro.
 
 | Argumento | Significado |
 |---|---|
 | -sC | Ejecuta los scripts para comprobaciones comunes |
 | -sV | Detección de versiones de servicios |
 | --min-rate 5000 | Envía al  5000 paquetes por segundo (aumenta velocidad; puede causar pérdida o detección) |
-| 172.17.0.2 | Dirección IP del objetivo a escanear |
+| 172.18.0.2 | Dirección IP del objetivo a escanear |
 
 
 ![Escaneo](img/nmap.png)
+![](image.png)
 
 > [!NOTE]
 >
@@ -54,74 +57,27 @@ En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.17.0.2
 
 
 En este caso, se ha encontrado un servicio activo:
-- **SSH (Puerto: 22):** Conexión remota
+- **FTP (Puerto: 21):** Protocolo de Transferencias de Archivos.
 
+Se procede a entrar a metaexploit a través de **msfconsole**
 
-A continuación, se dispone a iniciar metaexploit (msfconsole) para realizar una enumeración de usuarios. Para ello, dentro de metaexploit se ejecutará el comando search ssh_enum.
+![Metaexploit](img/metaexploit.png)
 
-![Enumusers](img/enumeracion.png)
+Para poder establecer los parámetros de ataque se usará show options
 
-En este caso se usará la primera opción (0). Mediante el comando **use 0**. Posteriormente es necesario ver las opciones configurables mediante el comando **show options**
+![Show options](img/options.png)
 
-![Opciones](img/opciones.png)
+En nuestro caso se establecerá Nuestra dirección IP (CHOST) y nuestro puerto de escucha (CPORT), debe ser uno que no se use y la dirección IP de la máquina víctima (RHOSTS). Esto lo haremos con **set**
 
-Se establece la dirección ip víctima (RHOST) utilizando el comando **set rhost 172.17.0.2** y un fichero de diccionario de usuarios (USER_FILE), en este caso he utilizado xato net de seclist: **set user_file /usr/share/wordlists/seclists/Usernames/xato-net-10-million-usernames.txt**
-
-![Opciones configuradas](img/opciones_confi.png)
-
-Por último, se lanza el script utilizando el comando **exploit**. Se encuntra el usuario **lovely**
-
-![Resultados](img/usuarios.png)
-
-Finalmente, se procede a realizar el ataque de fuerza bruta usando hydra:
-**hydra -l lovely -P /usr/share/wordlists/rockyou.txt.gz ssh://172.17.0.2 -t 64**
-
-
-| Argumento | Significado |
-|---|---|
-| hydra | Herramienta de ataque de fuerza bruta. |
-| -l lovely | Especifica un usuario. |
-| -P /usr/share/wordlists/Rockyou.txt.gz| Archivo con diccionario de contraseñas. |
-| ssh://172.17.0.2| Protocolo y dirección IP del objetivo. |
-| -t 64 | Número de hilos utilizados (velocidad). |
-
-![Credenciales Obtenidas](img/credenciales.png)
-
-
-Se ha encontrado las credenciales:
-  - Usuario: lovely
-  - Contraseña rockyou
-
+![Opciones configurados](img/opciones.png)
 ## 🖥️ Acceso al servidor
-Se accede al servidor utilizando el comando **ssh lovely@172.17.0.2**
+Se ejecuta el comando **exploit** o **run** para poder realizar el ataque.
 
-![Acceso](img/acceso.png)
+![Acceso Root](img/root.png)
 
-## 🔓 Escalada de privilegios
+Como ya se tiene acceso root y en /home no hay otros usuarios, no es necesario realizar más búsqueda de credenciales.
 
-Tras un rato analizando los diferentes directorios, se encuentra un fichero oculto .hash en /opt
-
-![Hash](img/hash.png)
-
-Una vez obtenido, procedo a guardar ese fichero en mi terminal para utilizar hashid obtener el tipo de hash y descifrar el contenido de esta con john
-
-![hashid](img/obtencion_hash.png)
-
-Posteriormente utilziaremos el comando **john --wordlist=/usr/share/wordlists/john.lst --format=Raw-MD5 root.hash**
-
-| Argumento | Significado |
-|---|---|
-| john | Herramienta de cracking de contraseñas. |
-| --wordlist=/usr/share/wordlists/john.lst | Usa el diccionario de palabras ubicado en esa ruta para probar contraseñas. |
-| --format=Raw-MD5 | Indica a John the Ripper que el hash está en formato MD5 sin sal (Raw-MD5). |
-| root.hash | Archivo que contiene el hash que se quiere descifrar. |
-
-![Contraseña](img/contraseña.png)
-
-Ya tendremos acceso a root utilizando la contraseña **estrella**
-
-![Acceso root](img/root.png)
-
+![Home](img/home.png)
 
 ## 🧪 Post-Laboratorio
 Una vez finalizada la máquina, en la terminal donde se tiene desplegada la máquina vulnerable se utilizará la combinación de teclas **Control + C** para eliminarla.

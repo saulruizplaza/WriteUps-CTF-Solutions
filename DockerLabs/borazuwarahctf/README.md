@@ -55,7 +55,7 @@ En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.17.0.2
 
 
 En este caso, se ha encontrado un servicio activo:
-- **SSH (Puerto: 21):** Conexión remota.
+- **SSH (Puerto: 22):** Conexión remota.
 - **HTTP (Puerto 80):** Servidor web.
 
 

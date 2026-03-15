@@ -53,7 +53,7 @@ En esta ocación, se usará el comando **nmap -sC -sV --min-rate 5000 172.17.0.2
 
 
 En este caso, se ha encontrado dos servicios activos:
-- **SSH (Puerto: 21):** Conexión remota
+- **SSH (Puerto: 22):** Conexión remota
 - **HTTP (Puerto 80):** Servidor Web.
 
 A continuación, se procede a visitar el sitio web utilizando el protocolo http, que se encuentra una página con la palabra "tails"

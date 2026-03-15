@@ -41,6 +41,7 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 - [`Trust`](./DockerLabs/trust/README.md)  → Enumeración web y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH, con escalada de privilegios a través de binarios sudo inseguros.
 
+- [`FirstHacking`](./DockerLabs/firsthacking/README.md)  → Explotación de servicio FTP vulnerable para obtener acceso inicial directo al sistema y privilegios root mediante Metasploit.
 
 <br>
 

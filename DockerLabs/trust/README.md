@@ -56,7 +56,7 @@ En este caso, he añadido -oN escaneo.txt para tener el escaneo guardado en un f
 
 
 En este caso, se ha encontrado un servicio activo:
-- **SSH (Puerto: 21):** Conexión remota.
+- **SSH (Puerto: 22):** Conexión remota.
 - **HTTP (Puerto 80):** Servidor web.
 
 
