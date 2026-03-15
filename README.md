@@ -35,7 +35,7 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 - [`Vacaciones`](./DockerLabs/tproot/README.md)  → Enumeración de servicios y detección de VSFTPD 2.3.4 con backdoor explotable.
 
-- [`BreakMySSH`](./DockerLabs/BreakMySSH/README.md)  → Máquina orientada a aprender enumeración básica, fuerza bruta y cracking de hashes para obtener acceso inicial mediante pistas web, credenciales descubiertas y acceso por SSH.
+- [`BreakMySSH`](./DockerLabs/breakmyssh/README.md)  → Máquina orientada a aprender enumeración básica, fuerza bruta y cracking de hashes para obtener acceso inicial mediante pistas web, credenciales descubiertas y acceso por SSH.
 
 
 
