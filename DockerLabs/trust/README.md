@@ -116,7 +116,7 @@ Una vez con acceso al usuario, se utiliza el comando **sudo -l** para ver los bi
 
 ![Binarios](img/binarios.png)
 
-En este caso se muestra que se puede ejecutar el binario vim comando con sudo sin necesidad de contraseña (solo pedirá la de mario). Se consulta a ![GTFobins](https://int0x33.github.io/gtfobins/vim/#sudo)
+En este caso se muestra que se puede ejecutar el binario vim comando con sudo sin necesidad de contraseña (solo pedirá la de mario). Se consulta a [GTFobins](https://int0x33.github.io/gtfobins/vim/#sudo)
 
 ![GTFobins](img/gtfobins.png)
 
