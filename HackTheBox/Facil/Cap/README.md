@@ -51,12 +51,12 @@ Con esta información permite responder a la pregunta **¿Cúantos puertos TCP h
 ![Primera respuesta](img/primera.png)
 
 
-A continuación, se dispone a visitar la página web, se encuentra lo siguiente:
+Se visita la página web con el siguiente resultado:
 ![Página web](img/web.png)
 
 Vemos que estamos logueados con la cuenta de nathan.
 
-A continuación, al entrrara a Security Snapshot, dirige a la carpeta `/data/id` dónde el id incrementa cada veaz que refresque la página.
+A continuación, al entrar a Security Snapshot, dirige a la carpeta `/data/id` dónde el id incrementa cada veaz que refresque la página.
 
 ![Security SnapShot](img/security.png)
 
