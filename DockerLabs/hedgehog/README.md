@@ -19,7 +19,7 @@ Al descargar la máquina, es necesario descompromirlo para poder encontrar los a
 
 **unzip hedgehog.zip.**
 
-![unzip hedgehog.zip](img/unzip.png)
+![unzip HedgeHog.zip](img/unzip.png)
 
 Obtendremos dos ficheros:
 - **Auto_deploy.sh:** Script Bash para desplegar nuestra máquina localmente.

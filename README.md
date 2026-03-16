@@ -23,7 +23,7 @@ Realizar write-ups tiene varias ventajas: permite aprender de forma profunda al 
 <br>
 
 ## 🐋 WriteUps en DockerLabs
-![DockerLabs](image.png)
+![DockerLabs](dockerlabs.png)
 
 Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
@@ -31,19 +31,33 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 - [`Obsessions`](./DockerLabs/Obsessions/README.md) → Enumeración de servicios, análisis web y explotación de FTP, SSH y HTTP, con escalada de privilegios mediante abuso de sudo y binarios vulnerables.
 
-- [`Vacaciones`](./DockerLabs/Vacaciones/README.md)  → Enumeración de servicios, fuerza bruta por SSH, análisis de servidor HTTP y escalada de privilegios en Linux.
+- [`Vacaciones`](./DockerLabs/Vacaciones/README.md) → Enumeración de servicios, fuerza bruta por SSH, análisis de servidor HTTP y escalada de privilegios en Linux.
 
-- [`Vacaciones`](./DockerLabs/tproot/README.md)  → Enumeración de servicios y detección de VSFTPD 2.3.4 con backdoor explotable.
+- [`tproot`](./DockerLabs/tproot/README.md) → Enumeración de servicios y detección de VSFTPD 2.3.4 con backdoor explotable.
 
-- [`BreakMySSH`](./DockerLabs/breakmyssh/README.md)  → Máquina orientada a aprender enumeración básica, fuerza bruta y cracking de hashes para obtener acceso inicial mediante pistas web, credenciales descubiertas y acceso por SSH.
+- [`BreakMySSH`](./DockerLabs/breakmyssh/README.md) → Máquina orientada a la enumeración básica, fuerza bruta y cracking de hashes para obtener acceso inicial mediante credenciales descubiertas y acceso por SSH.
 
-- [`Borazuwarahctf`](./DockerLabs/borazuwarahctf/README.md)  → Máquina orientada a Análisis de metadatos y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH.
+- [`Borazuwarahctf`](./DockerLabs/Muy_Facil/borazuwarahctf/README.md) → Máquina orientada al análisis de metadatos y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH.
 
-- [`Trust`](./DockerLabs/trust/README.md)  → Enumeración web y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH, con escalada de privilegios a través de binarios sudo inseguros.
+- [`Trust`](./DockerLabs/trust/README.md) → Enumeración web y fuerza bruta para obtener acceso inicial mediante credenciales descubiertas en un servicio web y acceso por SSH, con escalada de privilegios a través de binarios sudo inseguros.
 
-- [`FirstHacking`](./DockerLabs/firsthacking/README.md)  → Explotación de servicio FTP vulnerable para obtener acceso inicial directo al sistema y privilegios root mediante Metasploit.
+- [`Hedgehog`](./DockerLabs/hedgehog/README.md) → Enumeración de servicios OpenSSH y HTTP para identificar credenciales débiles y obtener acceso inicial mediante fuerza bruta.
 
+- [`FirstHacking`](/DockerLabs/firsthacking/README.md) → Explotación de servicio FTP vulnerable para obtener acceso inicial directo al sistema y privilegios root mediante Metasploit.
 <br>
+
+
+## 📦 WriteUps en HackTheBox
+![HackTheBox](hackthebox.png)
+
+
+Soluciones de máquinas de **HackTheBox** organizadas por dificultad.
+
+
+### Fácil
+
+- [`Cap`](./HackTheBox/Facil/Cap/README.md) → Explotación de un fallo IDOR en una aplicación web para acceder a capturas de red sensibles, obtener credenciales reutilizables y escalar privilegios mediante capacidades especiales en binarios del sistema Linux.
+
 
 ## <img src="./img/logoactual.jpg" width=25 style="; border-radius:50%;">  ¡Hola! Me llamo Saúl Ruiz 
 ### Estudiante en Ciberseguridad
