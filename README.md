@@ -13,6 +13,9 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
+
+### **Máquinas Documentadas: 10**
+
 <br>
 
 ## ❓ ¿Qué son los WriteUps?
@@ -58,6 +61,13 @@ Soluciones de máquinas de **HackTheBox** organizadas por dificultad.
 
 - [`Cap`](./HackTheBox/Facil/Cap/README.md) → Explotación de un fallo IDOR en una aplicación web para acceder a capturas de red sensibles, obtener credenciales reutilizables y escalar privilegios mediante capacidades especiales en binarios del sistema Linux.
 
+
+## 🔢 WriteUps en TryHackMe
+![TryHackMe](tryhackme.png)
+
+### 5 Minutos
+
+- [`Neighbour`](./TryHackMe/5_minutos/Neighbour/README.md) → Identificación de credenciales expuestas en el código fuente y explotación de una vulnerabilidad IDOR mediante la manipulación de parámetros en la URL para acceder a información restringida de otro usuario.
 
 ## <img src="./img/logoactual.jpg" width=25 style="; border-radius:50%;">  ¡Hola! Me llamo Saúl Ruiz 
 ### Estudiante en Ciberseguridad
