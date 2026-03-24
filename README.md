@@ -49,6 +49,10 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 - [`FirstHacking`](/DockerLabs/firsthacking/README.md) → Explotación de servicio FTP vulnerable para obtener acceso inicial directo al sistema y privilegios root mediante Metasploit.
 <br>
 
+### Facil
+
+- [`WalkingCMS`](/DockerLabs/walkingcms/README.md) → Explotación de un entorno WordPress mediante enumeración web, fuerza bruta de credenciales CMS, obtención de acceso remoto a través de edición de archivos del tema y escalada de privilegios mediante binarios SUID inseguros en Linux.
+
 
 ## 📦 WriteUps en HackTheBox
 ![HackTheBox](hackthebox.png)
