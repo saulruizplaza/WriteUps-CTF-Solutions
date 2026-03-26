@@ -29,7 +29,7 @@ Para desplegar el servicio será necesario carle permisos de ejecución a auto_d
 
  **chmod +x auto_deploy.sh**
 
- Una vez ejecutado, se utilizará el comando **./auto_deploy.sh borazuwarahctf.tar** para lanzar la máquina
+ Una vez ejecutado, se utilizará el comando **./auto_deploy.sh walkingcms.tar** para lanzar la máquina
 
 ![Despliegue](img/despliegue.png)
 
