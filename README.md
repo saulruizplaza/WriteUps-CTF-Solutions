@@ -14,7 +14,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
 
-### **Máquinas Documentadas: 10**
+### **Máquinas Documentadas: 12**
 
 <br>
 
@@ -52,6 +52,8 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 ### Facil
 
 - [`WalkingCMS`](/DockerLabs/walkingcms/README.md) → Explotación de un entorno WordPress mediante enumeración web, fuerza bruta de credenciales CMS, obtención de acceso remoto a través de edición de archivos del tema y escalada de privilegios mediante binarios SUID inseguros en Linux.
+- [`Walking_Dead`](/DockerLabs/Walking_Dead/README.md) → Explotación de un servidor web en Apache HTTP Server mediante análisis de código fuente, ejecución remota de comandos a través de una web shell oculta, obtención de acceso remoto con reverse shell y escalada de privilegios mediante binarios SUID inseguros en Linux.
+
 
 
 ## 📦 WriteUps en HackTheBox
