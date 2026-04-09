@@ -105,7 +105,6 @@ Se accede al servidor utilizando el comando **ssh borazuwarah@172.17.0.2**
 
 Una vez con acceso al usuario, se utiliza el comando **sudo -l** para ver los binarios con permisos sudo que tenga este usuario acceso.
 
-![Binarios](img/binarios.png)
 En este caso se muestra que se puede ejecutar cualquier comando con sudo sin necesidad de contraseña (solo pedirá la de borazuwarah). Se ejecuta sudo su para acceder a root
 
 ![Acceso root](img/acceso_root.png)
