@@ -58,8 +58,8 @@ En este caso, he añadido -oN escaneo.txt para tener el escaneo guardado en un f
 En este caso, se ha encontrado un servicio activo:
 
 - **SSH (puerto 22):** Servicio de acceso remoto seguro para administración del sistema.
-- **XMPP / Openfire (puerto 5222): **Servicio de mensajería instantánea y presencia basado en el protocolo XMPP.
-- **Jetty / Openfire HTTP Binding (puerto 7070): **Servidor web embebido utilizado por Openfire para comunicación HTTP.
+- **XMPP / Openfire (puerto 5222):** Servicio de mensajería instantánea y presencia basado en el protocolo XMPP.
+- **Jetty / Openfire HTTP Binding (puerto 7070):** Servidor web embebido utilizado por Openfire para comunicación HTTP.
 - **SOCKS5 (puerto 7777):** Proxy de red sin autenticación, potencialmente utilizable para pivoting.
 - **Apache Hadoop / interfaz web (puerto 9090):** Servicio web de gestión o panel asociado a almacenamiento distribuido.
 
@@ -67,7 +67,7 @@ A continuación, se dispone a visitar la página web por el puerto 9090 se encue
 
 ![Panel de logeo](img/login.png)
 
-Para poder acceder al sistema busqué en internet las credenciales por defecto para el servicio
+Para poder acceder al sistema busqué en internet las credenciales por defecto  del servicio y accedí al dashboard.
 
 ![Credenciales por defecto](img/creds_default.png)
 
@@ -84,7 +84,7 @@ Durante la revisión del sistema, en la sección System Properties, se identific
 
 ![Usuario](img/usuario.png)
 
-Este usuario al usarlo con hydra al servicio ssh encuentra la credencial **chocolate**
+Este usuario al usarlo con hydra al servicio ssh encuentra la credencial **chocolate**.
 
 | Argumento | Significado |
 |---|---|
@@ -113,7 +113,7 @@ En [GTFobins](https://gtfobins.github.io/gtfobins/dpkg/#sudo) aparace cómo pode
 
 ![GTFobins](img/gtfobins.png)
 
-Se ejecuta **sudo -u pinguinacio /usr/bin/dpkg -l**. Dentro se utiliza "!" para poder escribir en la terminal para poder abrir una shell usando !/bin/bash.
+Se ejecuta **sudo -u pinguinacio /usr/bin/dpkg -l**. Dentro se utiliza "!" para poder escribir en la terminal para poder abrir una shell usando **!/bin/bash.**
 
 ![Acceso Pinguinacio](img/acceso_pingu.png)
 
@@ -137,7 +137,7 @@ Dentro del read, el usuario puede introducir una cadena maliciosa como **a[$(/bi
 
 Para ejecutarlo es necesario utilizar **sudo -u root /bin/bash /home/pinguinacio/script.sh**
 
-Dentro se introducirá a[$(/bin/bash >&2)]+1
+En el input se introducirá **a[$(/bin/bash >&2)]+1**
 
 ![Acceso Root](img/root.png)
 
