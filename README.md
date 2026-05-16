@@ -57,7 +57,9 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 - [`AnonymousPingu`](/DockerLabs/AnonymousPingu/README.md) → Explotación de un servicio File Transfer Protocol con acceso anónimo y de un servidor web Apache HTTP Server mediante subida de archivos maliciosos, ejecución remota de código a través de una web shell en PHP, obtención de acceso remoto mediante reverse shell y escalada de privilegios en Linux mediante abuso de binarios sudo inseguros documentados en GTFOBins.
 
 
+### Medio
 
+- [`ChocolateFire`](/DockerLabs/chocolateFire/README.md) → Explotación de servicios mal configurados en entornos Linux mediante enumeración de servicios expuestos, acceso a paneles administrativos con credenciales débiles, obtención de acceso remoto al sistema a través de servicios vulnerables y escalada de privilegios mediante abuso de permisos sudo inseguros y configuraciones incorrectas documentadas en GTFOBins.
 
 ## 📦 WriteUps en HackTheBox
 ![HackTheBox](hackthebox.png)

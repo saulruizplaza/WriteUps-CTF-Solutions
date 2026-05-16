@@ -20,8 +20,7 @@ Al descargar la máquina, es necesario descompromirlo para poder encontrar los a
 
 **unzip anonymouspingu.zip.**
 
-![unzip WanonymousPingu](img/unzip.png)
-
+![unzip anonymousPingu](img/unzip.png)
 Obtendremos dos ficheros:
 - **Auto_deploy.sh:** Script Bash para desplegar nuestra máquina localmente.
 - **anonymouspingu.tar:** Máquina vulnerable contenizada.
