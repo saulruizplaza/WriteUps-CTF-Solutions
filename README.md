@@ -13,7 +13,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
-### **Máquinas Documentadas: 13**
+### **Máquinas Documentadas: 14**
 
 <br>
 
