@@ -13,7 +13,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
-### **Máquinas Documentadas: 14**
+### **Máquinas Documentadas: 15**
 
 <br>
 
@@ -60,6 +60,8 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 ### Medio
 
 - [`ChocolateFire`](/DockerLabs/chocolateFire/README.md) → Explotación de servicios mal configurados en entornos Linux mediante enumeración de servicios expuestos, acceso a paneles administrativos con credenciales débiles, obtención de acceso remoto al sistema a través de servicios vulnerables y escalada de privilegios mediante abuso de permisos sudo inseguros y configuraciones incorrectas documentadas en GTFOBins.
+  
+- [`Dance-Samba`](/DockerLabs/dance-samba/README.md) → Explotación de servicios mal configurados en entornos Linux mediante técnicas de reconocimiento y enumeración de servicios expuestos, identificación de credenciales débiles y acceso inicial al sistema a través de servicios vulnerables como FTP, SMB o SSH. Posteriormente, se realiza la explotación de configuraciones inseguras para obtener acceso remoto y se lleva a cabo la escalada de privilegios mediante el abuso de permisos sudo mal configurados y binarios explotables documentados en GTFOBins, permitiendo la toma completa del control del sistema.
 
 ## 📦 WriteUps en HackTheBox
 ![HackTheBox](hackthebox.png)
