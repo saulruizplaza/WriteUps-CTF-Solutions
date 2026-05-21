@@ -13,7 +13,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
-### **Máquinas Documentadas: 15**
+### **Máquinas Documentadas: 16**
 
 <br>
 
@@ -29,7 +29,7 @@ Realizar write-ups tiene varias ventajas: permite aprender de forma profunda al 
 
 Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
-### Muy Fácil
+### Muy Fácil 🔵
 
 - [`Obsessions`](./DockerLabs/Obsessions/README.md) → Enumeración de servicios, análisis web y explotación de FTP, SSH y HTTP, con escalada de privilegios mediante abuso de sudo y binarios vulnerables.
 
@@ -48,7 +48,7 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 - [`FirstHacking`](/DockerLabs/firsthacking/README.md) → Explotación de servicio FTP vulnerable para obtener acceso inicial directo al sistema y privilegios root mediante Metasploit.
 <br>
 
-### Facil
+### Facil 🟢
 
 - [`WalkingCMS`](/DockerLabs/walkingcms/README.md) → Explotación de un entorno WordPress mediante enumeración web, fuerza bruta de credenciales CMS, obtención de acceso remoto a través de edición de archivos del tema y escalada de privilegios mediante binarios SUID inseguros en Linux.
   
@@ -57,11 +57,15 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 - [`AnonymousPingu`](/DockerLabs/AnonymousPingu/README.md) → Explotación de un servicio File Transfer Protocol con acceso anónimo y de un servidor web Apache HTTP Server mediante subida de archivos maliciosos, ejecución remota de código a través de una web shell en PHP, obtención de acceso remoto mediante reverse shell y escalada de privilegios en Linux mediante abuso de binarios sudo inseguros documentados en GTFOBins.
 
 
-### Medio
+### Medio 🟡
 
 - [`ChocolateFire`](/DockerLabs/chocolateFire/README.md) → Explotación de servicios mal configurados en entornos Linux mediante enumeración de servicios expuestos, acceso a paneles administrativos con credenciales débiles, obtención de acceso remoto al sistema a través de servicios vulnerables y escalada de privilegios mediante abuso de permisos sudo inseguros y configuraciones incorrectas documentadas en GTFOBins.
   
 - [`Dance-Samba`](/DockerLabs/dance-samba/README.md) → Explotación de servicios mal configurados en entornos Linux mediante técnicas de reconocimiento y enumeración de servicios expuestos, identificación de credenciales débiles y acceso inicial al sistema a través de servicios vulnerables como FTP, SMB o SSH. Posteriormente, se realiza la explotación de configuraciones inseguras para obtener acceso remoto y se lleva a cabo la escalada de privilegios mediante el abuso de permisos sudo mal configurados y binarios explotables documentados en GTFOBins, permitiendo la toma completa del control del sistema.
+
+### Dificil 🔴
+
+- [`Vulnerame`](/DockerLabs/vulnerame/README.md) → Explotación de servicios mal configurados en entornos Linux mediante técnicas de reconocimiento y enumeración de servicios expuestos como HTTP, SSH y MySQL, identificación de información sensible en aplicaciones web (Joomla) y aprovechamiento de una vulnerabilidad de information disclosure para la obtención de credenciales. Posteriormente, se realiza el acceso a la base de datos para la extracción y cracking de hashes de usuarios, lo que permite el acceso inicial al panel de administración y la explotación de plantillas PHP para obtener una reverse shell y acceso al sistema. Finalmente, se lleva a cabo la escalada de privilegios mediante enumeración de usuarios locales, fuerza bruta contra el servicio SSH y el abuso de permisos sudo sobre un script en Ruby, permitiendo la modificación del mismo para ejecutar una shell y lograr la toma completa del control del sistema como root.
 
 ## 📦 WriteUps en HackTheBox
 ![HackTheBox](hackthebox.png)
@@ -70,7 +74,7 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 Soluciones de máquinas de **HackTheBox** organizadas por dificultad.
 
 
-### Fácil
+### Fácil 🟢
 
 - [`Cap`](./HackTheBox/Facil/Cap/README.md) → Explotación de un fallo IDOR en una aplicación web para acceder a capturas de red sensibles, obtener credenciales reutilizables y escalar privilegios mediante capacidades especiales en binarios del sistema Linux.
 
@@ -78,7 +82,7 @@ Soluciones de máquinas de **HackTheBox** organizadas por dificultad.
 ## 🔢 WriteUps en TryHackMe
 ![TryHackMe](tryhackme.png)
 
-### 5 Minutos
+### 5 Minutos 🔵
 
 - [`Neighbour`](TryHackme/5_minutos/Neighbour/README.md) → Identificación de credenciales expuestas en el código fuente y explotación de una vulnerabilidad IDOR mediante la manipulación de parámetros en la URL para acceder a información restringida de otro usuario.
 
