@@ -56,6 +56,7 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 - [`AnonymousPingu`](/DockerLabs/AnonymousPingu/README.md) → Explotación de un servicio File Transfer Protocol con acceso anónimo y de un servidor web Apache HTTP Server mediante subida de archivos maliciosos, ejecución remota de código a través de una web shell en PHP, obtención de acceso remoto mediante reverse shell y escalada de privilegios en Linux mediante abuso de binarios sudo inseguros documentados en GTFOBins.
 
+- [`Backend`](/DockerLabs/backend/README.md) → Explotación de una aplicación web vulnerable en entorno Linux mediante reconocimiento de servicios expuestos, análisis de formulario de autenticación, explotación de SQL Injection con sqlmap para obtener credenciales, acceso inicial por SSH y escalada de privilegios mediante abuso de binarios SUID inseguros y crackeo de hash MD5 con John the Ripper.
 
 ### Medio 🟡
 
