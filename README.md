@@ -13,7 +13,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
-### **Máquinas Documentadas: 17**
+### **Máquinas Documentadas: 18**
 
 <br>
 
@@ -64,6 +64,9 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
   
 - [`Dance-Samba`](/DockerLabs/dance-samba/README.md) → Explotación de servicios mal configurados en entornos Linux mediante técnicas de reconocimiento y enumeración de servicios expuestos, identificación de credenciales débiles y acceso inicial al sistema a través de servicios vulnerables como FTP, SMB o SSH. Posteriormente, se realiza la explotación de configuraciones inseguras para obtener acceso remoto y se lleva a cabo la escalada de privilegios mediante el abuso de permisos sudo mal configurados y binarios explotables documentados en GTFOBins, permitiendo la toma completa del control del sistema.
 
+- [`Domain`](/DockerLabs/domain/README.md) → Explotación de servicios mal configurados en un entorno Linux mediante técnicas de reconocimiento y enumeración de servicios expuestos como HTTP y SMB, identificación de usuarios válidos y obtención de credenciales mediante comprobaciones de acceso y fuerza bruta controlada sobre Samba. Posteriormente, se aprovecha el acceso a un recurso compartido para subir una reverse shell en PHP y obtener acceso inicial al sistema como usuario del servidor web. Finalmente, se realiza la escalada de privilegios mediante el abuso de un binario con permisos SUID, permitiendo modificar ficheros críticos del sistema y comprometer completamente la máquina como root.
+
+
 ### Dificil 🔴
 
 - [`Vulnerame`](/DockerLabs/vulnerame/README.md) → Explotación de servicios mal configurados en entornos Linux mediante técnicas de reconocimiento y enumeración de servicios expuestos como HTTP, SSH y MySQL, identificación de información sensible en aplicaciones web (Joomla) y aprovechamiento de una vulnerabilidad de information disclosure para la obtención de credenciales. Posteriormente, se realiza el acceso a la base de datos para la extracción y cracking de hashes de usuarios, lo que permite el acceso inicial al panel de administración y la explotación de plantillas PHP para obtener una reverse shell y acceso al sistema. Finalmente, se lleva a cabo la escalada de privilegios mediante enumeración de usuarios locales, fuerza bruta contra el servicio SSH y el abuso de permisos sudo sobre un script en Ruby, permitiendo la modificación del mismo para ejecutar una shell y lograr la toma completa del control del sistema como root.
@@ -88,19 +91,24 @@ Soluciones de máquinas de **HackTheBox** organizadas por dificultad.
 - [`Neighbour`](TryHackme/5_minutos/Neighbour/README.md) → Identificación de credenciales expuestas en el código fuente y explotación de una vulnerabilidad IDOR mediante la manipulación de parámetros en la URL para acceder a información restringida de otro usuario.
 
 ## <img src="./img/logoactual.jpg" width=25 style="; border-radius:50%;">  ¡Hola! Me llamo Saúl Ruiz 
-### Estudiante en Ciberseguridad
+### Analista de Ciberseguridad | Seguridad Ofensiva y Pentesting
 
 
 ![YouTube](https://img.shields.io/youtube/channel/subscribers/UCcOkvgreZrXauRHyXlii0JA)
 ![Seguidores](https://img.shields.io/github/followers/saulruizplaza)
 [![Twitter Follow](https://img.shields.io/twitter/follow/plasysx?style=social)](https://twitter.com/plasysx)
 
-Soy estudiante de Administración de Sistemas Informáticos en Red con pasión por la ciberseguridad y el mundo de la informática. Desde pequeño disfruto explorando tecnología y aprendiendo de manera autónoma. Además, combino mis estudios con la creación de contenido y recursos educativos sobre informática a través de mi proyecto personal <b>[@PlaSysX](https://linktr.ee/PlaSysx)</b>
 
-Si quieres aprender informática, mejorar tus habilidades, descubrir trucos y soluciones prácticas, y formar parte de nuestra comunidad, puedes seguirnos en PlaSysX.
+Soy Analista de Ciberseguridad y Técnico Superior en Administración de Sistemas Informáticos en Red. Actualmente desarrollo mi carrera en entornos SOC, participando en tareas de análisis, monitorización e investigación de eventos de seguridad.
 
+
+Mi interés principal se orienta hacia la seguridad ofensiva, el pentesting y el análisis técnico, áreas en las que sigo formándome de manera constante para crecer profesionalmente dentro del sector.
+
+A través de mi proyecto personal <b>[@PlaSysX](https://linktr.ee/PlaSysx)</b>, comparto contenido relacionado con informática, ciberseguridad y aprendizaje práctico, con el objetivo de aportar valor a quienes también quieren seguir creciendo en el mundo tecnológico.
+
+
+[![Website](https://img.shields.io/badge/Website-plasysx.com-7B3FF2?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=101010)](https://plasysx.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Saúl_Ruiz_Plaza-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/saulruizplaza) [![Instagram](https://img.shields.io/badge/Instagram-@PlaSysX-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=101010)](https://instagram.com/plasysx)
 [![TikTok](https://img.shields.io/badge/TikTok-@plasysx_es-69C9D0?style=for-the-badge&logo=tiktok&logoColor=white&labelColor=101010)](https://tiktok.com/@plasysx_es)
 [![YouTube](https://img.shields.io/badge/YouTube-Plasysx-FF0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=101010)](https://youtube.com/@Plasysx)
 [![Twitter](https://img.shields.io/badge/Twitter-@plasysx-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=101010)](https://twitter.com/plasysx)
-
