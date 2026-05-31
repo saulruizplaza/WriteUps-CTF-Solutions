@@ -102,7 +102,7 @@ Como no se permite utilizar el comando **sudo -l**, se realiza una búsqueda de 
 
 **find / -perm -4000 2>/dev/null**
 
-![SUID](img/suid.png)
+![SUID](img/SUID.png)
 
 Se encuentra el binario **su**, encargado de poder cambiar de usuario, para lograrlo, se necesita credenciales. Se inspecciona el fichero settings.php localizado en /var/wwwhtml/sites/default para ver las credenciales del usuario ballenita. En este caso he utilizado **cat settings.php | grep -n "ballenita"**, las credenciales se encuentra en la línea 81 y 82
 
