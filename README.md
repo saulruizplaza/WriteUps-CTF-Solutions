@@ -13,7 +13,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
-### **Máquinas Documentadas: 18**
+### **Máquinas Documentadas: 19**
 
 <br>
 
@@ -57,6 +57,9 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 - [`AnonymousPingu`](/DockerLabs/AnonymousPingu/README.md) → Explotación de un servicio File Transfer Protocol con acceso anónimo y de un servidor web Apache HTTP Server mediante subida de archivos maliciosos, ejecución remota de código a través de una web shell en PHP, obtención de acceso remoto mediante reverse shell y escalada de privilegios en Linux mediante abuso de binarios sudo inseguros documentados en GTFOBins.
 
 - [`Backend`](/DockerLabs/backend/README.md) → Explotación de una aplicación web vulnerable en entorno Linux mediante reconocimiento de servicios expuestos, análisis de formulario de autenticación, explotación de SQL Injection con sqlmap para obtener credenciales, acceso inicial por SSH y escalada de privilegios mediante abuso de binarios SUID inseguros y crackeo de hash MD5 con John the Ripper.
+
+- [`FindYourStyle`](/DockerLabs/findyourstyle/README.md) → Explotación de una aplicación web vulnerable en Drupal sobre entorno Linux mediante reconocimiento de servicios, identificación de Drupal 8 y explotación de Drupalgeddon2 para obtener acceso inicial como www-data. Posteriormente, se realiza enumeración interna, extracción de credenciales desde ficheros de configuración y escalada de privilegios abusando de permisos sudo sobre binarios como ls y grep para comprometer la máquina como root.
+
 
 ### Medio 🟡
 
