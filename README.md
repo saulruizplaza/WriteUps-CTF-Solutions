@@ -85,7 +85,7 @@ Soluciones de máquinas de **HackTheBox** organizadas por dificultad.
 
 - [`Cap`](./HackTheBox/Facil/Cap/README.md) → Explotación de un fallo IDOR en una aplicación web para acceder a capturas de red sensibles, obtener credenciales reutilizables y escalar privilegios mediante capacidades especiales en binarios del sistema Linux.
 
-- [`Orion`](./HackTheBox/Facil/Orion/README.md) → Explotación de una vulnerabilidad pre-auth RCE en Craft CMS para obtener ejecución remota de código, extracción de credenciales desde ficheros de configuración, cracking de hashes bcrypt y escalada de privilegios abusando de un servicio Telnet vulnerable en local.
+- [`Orion`](./HackTheBox/Facil/orion/README.md) → Explotación de una vulnerabilidad pre-auth RCE en Craft CMS para obtener ejecución remota de código, extracción de credenciales desde ficheros de configuración, cracking de hashes bcrypt y escalada de privilegios abusando de un servicio Telnet vulnerable en local.
 
 ## 🔢 WriteUps en TryHackMe
 ![TryHackMe](tryhackme.png)
