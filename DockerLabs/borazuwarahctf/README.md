@@ -2,7 +2,17 @@
 <p align="center">
 
 <img src="img/banner.png" width="400">
+</p>
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=AWnEwQuBSS4">
+    <img src="img/miniatura-youtube.png" alt="Miniatura del video BorazuwarahCTF en YouTube" width="850">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=AWnEwQuBSS4"><strong>Ver video en YouTube</strong></a>
+</p>
 
 ## ❓ ¿Qué es BorazuwarahCTF?
 
