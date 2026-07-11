@@ -1,18 +1,7 @@
 <center><h1>Borazuwarahctf</h1></center>  
 <p align="center">
 
-<img src="img/banner.png" width="400">
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=AWnEwQuBSS4">
-    <img src="img/miniatura-youtube.png" alt="Miniatura del video BorazuwarahCTF en YouTube" width="850">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=AWnEwQuBSS4"><strong>Ver video en YouTube</strong></a>
-</p>
+![Banner](img/banner.png)
 
 ## ❓ ¿Qué es BorazuwarahCTF?
 
@@ -21,6 +10,14 @@ BorazuwarahCTF es una máquina vulnerable enfocada en practicar enumeración bá
 > [!NOTE]
 >
 >Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/gWNQlaZD#CgYMb_EEBL0jcypTg0xZZUaIqhO47ueX6pPU6utLy1U)**
+
+
+## 📹 ¡Mira el procedimiento en mi canal de YouTube!
+
+|  |
+|---|
+| [![BorazuwarahCTF - Tutorial Práctico](img/miniatura-youtube.png)](https://www.youtube.com/watch?v=AWnEwQuBSS4) |
+
 
 
 ## 🔝 Despliegue Borazuwarahctf
