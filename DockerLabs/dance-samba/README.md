@@ -1,7 +1,7 @@
 <center><h1>Dance-Samba</h1></center>  
 <p align="center">
 
-<img src="img/banner.png" width="400">
+![Banner](img/banner.png)
 
 
 ## ❓ ¿Qué es Dance-Samba?
@@ -12,6 +12,14 @@ Dance-Samba es una máquina vulnerable enfocada en la explotación de servicios 
 > [!NOTE]
 >
 >Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/JCtnnLAJ#yeVJuvp8zhHiM55IHvnFJZ62_cjR1vmH-miDBc30slY)**
+
+
+## 📹 ¡Mira el procedimiento en mi canal de YouTube!
+
+|  |
+|---|
+| [![Dance-Samba - Tutorial Práctico](img/miniatura-youtube.png)](https://www.youtube.com/watch?v=9QpHYtKaRBw&t=168s) |
+
 
 
 ## 🔝 Despliegue Dance-Samba
