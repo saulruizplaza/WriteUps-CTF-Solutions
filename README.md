@@ -13,7 +13,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
-### **Máquinas Documentadas: 20**
+### **Máquinas Documentadas: 21**
 
 <br>
 
@@ -60,6 +60,8 @@ Soluciones de máquinas de **DockerLabs** organizadas por dificultad.
 
 - [`FindYourStyle`](/DockerLabs/findyourstyle/README.md) → Explotación de una aplicación web vulnerable en Drupal sobre entorno Linux mediante reconocimiento de servicios, identificación de Drupal 8 y explotación de Drupalgeddon2 para obtener acceso inicial como www-data. Posteriormente, se realiza enumeración interna, extracción de credenciales desde ficheros de configuración y escalada de privilegios abusando de permisos sudo sobre binarios como ls y grep para comprometer la máquina como root.
 
+
+- [`kmspwned`](/DockerLabs/kmspwned/README.md) → Explotación de una aplicación web vulnerable sobre entorno Linux mediante reconocimiento de servicios, análisis de una plataforma de hosting e identificación de una inyección SQL en una API que procesa peticiones JSON. Posteriormente, se utiliza Burp Suite y sqlmap para extraer información de la base de datos, localizar un panel de administración y obtener credenciales válidas para acceder por SSH como el usuario carlos. Finalmente, se escala a root modificando un script de copias de seguridad con permisos de escritura inseguros que es ejecutado periódicamente mediante una tarea programada de cron.
 
 ### Medio 🟡
 
