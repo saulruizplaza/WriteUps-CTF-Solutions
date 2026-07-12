@@ -6,7 +6,7 @@
 
 ## ❓ ¿Qué es kmspwned?
 
-kmspwned es una máquina Linux vulnerable en la que se realiza reconocimiento con Nmap, se explota una inyección SQL en una API JSON para obtener credenciales y acceder por SSH como carlos, y finalmente se escala a root modificando un script de copias de seguridad ejecutado periódicamente mediante cron.
+kmspwned es una máquina Linux vulnerable en la que se realiza reconocimiento con Nmap, se explota una inyección SQL en una API JSON para obtener credenciales y acceder por SSH, y finalmente se escala a root modificando un script de copias de seguridad ejecutado periódicamente mediante cron.
 
 > [!NOTE]
 >
