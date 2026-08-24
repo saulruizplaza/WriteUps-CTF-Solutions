@@ -14,6 +14,13 @@ Esta máquina está pensada para quienes quieren dar sus primeros pasos en pente
 >Puede descargar la máquina a través del **[enlace mega](https://mega.nz/file/YCEGAISD#y6iWUG_auH4vUApClb9ix7H6JmOCKm4vAYS2TjQn59g)**
 
 
+## 📹 ¡Mira el procedimiento en mi canal de YouTube!
+
+|  |
+|---|
+| [![Vacaciones - Tutorial Práctico](https://img.youtube.com/vi/JTOiXJ82nN4/maxresdefault.jpg)](https://www.youtube.com/watch?v=JTOiXJ82nN4) |
+
+
 ## 🔝 Despliegue Vacaciones
 
 Al descargar la máquina, es necesario descompromirlo para poder encontrar los archivos necesarios para poder desplegarla, para ello, utilizaremos el comando.

@@ -15,6 +15,13 @@ FindYourStyle es una máquina vulnerable orientada a la explotación de un entor
 >
 > Puede descargar la máquina a través del **[enlace Mega](https://mega.nz/file/qEVWUKqR#3CheB213YMSaj-VUXSu1LOj2hlI7AwD-lQUbrtR_9W0)**.
 
+## 📹 ¡Mira el procedimiento en mi canal de YouTube!
+
+|  |
+|---|
+| [![FindYourStyle - Tutorial Práctico](https://img.youtube.com/vi/SVQUcHKf_Hg/maxresdefault.jpg)](https://www.youtube.com/watch?v=SVQUcHKf_Hg) |
+
+
 ## 🔝 Despliegue de FindYourStyle
 
 Al descargar la máquina, es necesario descomprimir el archivo para obtener los ficheros necesarios para desplegarla. Para ello, se utiliza el siguiente comando:
