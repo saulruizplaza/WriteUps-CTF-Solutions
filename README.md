@@ -13,7 +13,7 @@ Los WriteUps están organizados por **plataforma y dificultad**, con explicacion
 > 
 > Este repositorio se actualiza constantemente con nuevos WriteUps y soluciones
 
-### **Máquinas Documentadas: 22**
+### **Máquinas Documentadas: 23**
 
 <br>
 
@@ -90,6 +90,10 @@ Soluciones de máquinas de **HackTheBox** organizadas por dificultad.
 - [`Orion`](./HackTheBox/Facil/orion/README.md) → Explotación de una vulnerabilidad pre-auth RCE en Craft CMS para obtener ejecución remota de código, extracción de credenciales desde ficheros de configuración, cracking de hashes bcrypt y escalada de privilegios abusando de un servicio Telnet vulnerable en local.
 
 - [`Reactor`](./HackTheBox/Facil/reactor/README.md) → Explotación de una vulnerabilidad pre-auth RCE en Next.js mediante React2Shell, extracción de credenciales desde SQLite, cracking de hashes MD5, reutilización de contraseñas por SSH y escalada de privilegios abusando del puerto de depuración de un proceso Node.js ejecutado como root.
+
+### Medio 🟡
+
+- [`Principal`](./HackTheBox/Medio/Principal/README.md) → Explotación de un bypass de autenticación en pac4j-jwt, acceso a endpoints administrativos mediante JWT/JWE, reutilización de credenciales para obtener acceso SSH y escalada de privilegios abusando de una autoridad certificadora SSH..
 
 ## 🔢 WriteUps en TryHackMe
 ![TryHackMe](tryhackme.png)
